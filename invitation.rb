@@ -2,11 +2,11 @@ puts "Who would you like to write the invitation to."
 guest_name= gets.chomp
 puts "Dear #{guest_name},"
 
-puts "What is the name of the part?"
+puts "What is the name of the party?"
 party_name=gets.chomp
 puts "You are cordially invited to the #{party_name} "
 
-puts "What date will is the part on?"
+puts "What date is the party on?"
 date = gets.chomp
 puts " on "
 
