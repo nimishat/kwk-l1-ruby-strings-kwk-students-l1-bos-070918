@@ -1,4 +1,4 @@
-puts "Who would you like to write the invitation to."
+puts "Hi, you've been invited to a party! What is your name?"
 guest_name= gets.chomp
 puts "Dear #{guest_name},"
 
