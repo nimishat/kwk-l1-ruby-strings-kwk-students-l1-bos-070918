@@ -14,7 +14,8 @@ puts "What time is the party at?"
 time=gets.chomp
 puts " at #{time}"
 puts "When do you want this person to RSVP by?"
-puts "Please RSVP no later than "
+rsvp_date = gets.chomp
+puts "Please RSVP no later than #{rsvp_date} "
 
 puts "Who is this letter from?"
 host_name=gets.chomp
