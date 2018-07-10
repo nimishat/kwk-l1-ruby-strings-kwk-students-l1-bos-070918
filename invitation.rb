@@ -8,17 +8,17 @@ puts "You are cordially invited to the #{party_name} "
 
 puts "What date is the party on?"
 date = gets.chomp
-puts " on "
+puts " on #{date}"
 
 puts "What time is the party at?"
 time=gets.chomp
-puts " at "
+puts " at #{time}"
 puts "When do you want this person to RSVP by?"
 puts "Please RSVP no later than "
 
 puts "Who is this letter from?"
 host_name=gets.chomp
-puts "Sincerely, "
+puts "Sincerely, #{host_name}"
 
 
 
